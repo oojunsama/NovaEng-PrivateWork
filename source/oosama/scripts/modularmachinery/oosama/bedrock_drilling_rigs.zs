@@ -49,13 +49,13 @@ recipes.addShaped(
 
 // 新配方：产基岩粉
 RecipeBuilder.newBuilder("jiyanfensc", "bedrock_drilling_rigs", 20)
-    .addItemInput(<enderio:block_infinity:2> * 1).setChance(0).setParallelizeUnaffected(true) // 基岩块
+    .addItemInput(<enderio:block_infinity:2> * 1).setChance(0).setParallelizeUnaffected(false) // 基岩块
     .addEnergyPerTickInput(1000) // 每 tick 输入 1000 单位电力 (总电力消耗 = 1000 * 70 = 70000)
     .addItemOutput(<enderio:item_material:20> * 100).setChance(0.01) // 输出：基岩粉 x1
     .addItemOutput(<enderio:item_material:20> * 10).setChance(0.1) // 输出：基岩粉 x1
     .addItemOutput(<enderio:item_material:20> * 1) // 输出：基岩粉 x1
 
-    .addRecipeTooltip("§f放入§e一个基岩块§f提供§2一并行！") // 提示信息：描述配方功能
+    .addRecipeTooltip("§f每个§e二重压缩基岩粉块§f提供§2一并行！") // 提示信息：描述配方功能
     .addCatalystInput(<minecraft:flint>,
         ["§f当做磨珠子使用喵§e120%§f额外，§e85%§f能效。"],
         [

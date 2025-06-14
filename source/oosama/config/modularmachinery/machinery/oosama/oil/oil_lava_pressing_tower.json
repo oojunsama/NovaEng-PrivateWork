@@ -1,6 +1,6 @@
 {    
 "registryname": "lava_pressing_tower",
-"localizedname": "熔岩压制塔",
+"localizedname": "&c熔岩&e压制塔",
 "requires-blueprint": false,
     "parts": [
         {

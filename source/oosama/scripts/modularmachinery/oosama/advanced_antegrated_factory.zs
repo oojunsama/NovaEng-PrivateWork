@@ -57,6 +57,8 @@ val machineName = "advanced_antegrated_factory";  // 使用的机器名称
 val time = 5;                                   // 配方所需时间（单位：ticks）
 val energyPerTick = 10000;                          // 每 tick 所需能量
 
+//粉碎机配方增加
+//小制造机制作硝石
 
 //岩石粉碎配方
     RecipeBuilder.newBuilder("separator_uranium", "item_shredder", 10)
@@ -127,7 +129,7 @@ RecipeBuilder.newBuilder("redstonerepository_socool_aaf", machineName, time)
     .addRecipeTooltip("这个是§c私货§f自己加的配方！")
     .build();  
 
-
+//合金添加配方
 //科技枪里面的黑曜石钢锭
 RecipeBuilder.newBuilder("itemshared_aaf", machineName, time)
     .addInputs(

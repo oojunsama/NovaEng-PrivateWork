@@ -1,25 +1,42 @@
 #priority 50
 #loader crafttweaker reloadable
 
+import mods.modularmachinery.MMEvents;
 import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.RecipeBuilder;
-import mods.modularmachinery.FactoryRecipeThread;
-import mods.modularmachinery.MachineModifier;
 import mods.modularmachinery.IngredientArrayBuilder;
+import mods.modularmachinery.MachineModifier;
+import mods.modularmachinery.MachineBuilder;
+import mods.modularmachinery.MachineTickEvent;
 import mods.modularmachinery.RecipeModifierBuilder;
 import mods.modularmachinery.RecipeAdapterBuilder;
-import mods.modularmachinery.RecipeCheckEvent;
-import mods.modularmachinery.FactoryRecipeStartEvent;
+import mods.modularmachinery.MultiblockModifierBuilder;
+import mods.modularmachinery.ControllerGUIRenderEvent;
+import mods.modularmachinery.BlockArrayBuilder;
+import mods.modularmachinery.FactoryRecipeThread;
+import mods.modularmachinery.IMachineController;
+
 import mods.modularmachinery.FactoryRecipeTickEvent;
-import mods.modularmachinery.FactoryRecipeFinishEvent;
-import mods.modularmachinery.MachineTickEvent;
+import mods.modularmachinery.RecipeTickEvent;
+import mods.modularmachinery.Sync;
 
-
-import mods.modularmachinery.SmartInterfaceType;
-
-import mods.modularmachinery.MMEvents;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IWorld;
+import crafttweaker.item.IItemStack;
+import crafttweaker.data.IData;
+import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.item.WeightedItemStack;
+import mod.mekanism.gas.IGasStack;
+import mods.astralsorcery.Altar;
+import crafttweaker.item.IWeightedIngredient;
 
 import novaeng.hypernet.HyperNetHelper;
+import novaeng.hypernet.RegistryHyperNet;
+import novaeng.hypernet.research.ResearchCognitionData;
+import novaeng.NovaEngUtils;
+
 
 
 //内置并行设置
@@ -54,7 +71,26 @@ RecipeBuilder.newBuilder("ImplosionCompressor2", "machine_arm", 2400)
     .addOutputs(<modularmachinery:implosioncompressor_factory_controller> * 1) 
     .build();
 
+// changpian
+recipes.addShapeless( 
+    <nuclearcraft:record_money_for_nothing>, // 输出物品
+    [<ic2:crafting:27>, <mekanism:polyethene:2>, <enderio:item_material:50>]);
 
+
+//changpian
+RecipeBuilder.newBuilder("changpian", "ImplosionCompressor", 2)
+
+    .addEnergyPerTickInput(14400) //电
+    .addInput(<ore:record>*1)  //changpian
+    .addItemOutput(<avaritia:resource:7>*16)
+        .addCatalystInput(<minecraft:tnt> * 1,  // TNT
+        ["爆炸就是艺术！","此催化剂可以使产量提高100%"],
+        [
+            RecipeModifierBuilder.create("modularmachinery:item", "output", 2.0F, 1, false).build(),
+        ]
+
+    ).setChance(0.1)
+    .build();
 
 //高级合金
 RecipeBuilder.newBuilder("gaojihejinzhizuo", "ImplosionCompressor", 2)

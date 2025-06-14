@@ -112,7 +112,7 @@ recipes.addShaped(
 
     RecipeBuilder.newBuilder("9x_beng_tbyxpf", "9x_beng", 20,0)
     .addEnergyPerTickInput(2250000)
-    .addInput(<extendedae:infinity_cell>.withTag({r: {FluidName: "water"}})).setPreViewNBT({r: {FluidName: "water", Craft: 0 as byte, Cnt: 1 as long, Count: 0 as byte, Req: 0 as long}, t: "f"}).setChance(0).setParallelizeUnaffected(true)
+    .addInput(<extendedae:infinity_cell>.withTag({r: {FluidName: "water"}})).setPreViewNBT({r: {FluidName: "water", Craft: 0 as byte, Cnt: 1 as long, Count: 0 as byte, Req: 0 as long}, t: "f"}).setChance(0).setParallelizeUnaffected(false)
     .addInput(<appliedenergistics2:io_port>).setChance(0)
     .addOutput(<liquid:brine> * 148500)
     .addRecipeTooltip("这他喵的就是力量，兄弟！")

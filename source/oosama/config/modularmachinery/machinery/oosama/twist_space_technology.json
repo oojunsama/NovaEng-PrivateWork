@@ -202,18 +202,19 @@
             "y": -1,
             "z": 0,
             "elements": [
-        "modularmachinery:blockcasing",
-        "modularmachinery:blockinputbus",
-        "modularmachinery:blockmeiteminputbus",
-        "modularmachinery:blockmeitemoutputbus",
-        "modularmachinery:blockenergyinputhatch",
-        "modularmachinery:blockfluidinputhatch",
-        "modularmachinery:blockfluidoutputhatch",
-        "modularmachinery:blockmegasoutputbus",
-        "modularmachinery:blockmefluidinputbus",
-        "modularmachinery:blockmefluidoutputbus",
-        "modularmachinery:blockoutputbus",
-        "modularmachinery:blockenergyoutputhatch"
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockoutputbus",
+                "modularmachinery:blockmeitemoutputbus",
+                "modularmachinery:blockenergyinputhatch",
+                
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockfluidoutputhatch",
+                "modularmachinery:blockmegasoutputbus",
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmefluidoutputbus",
+                "modularmachinery:blockmeitemoutputbus"
             ]
         },
         {
@@ -317,18 +318,19 @@
             "y": -1,
             "z": 0,
             "elements": [
-        "modularmachinery:blockcasing",
-        "modularmachinery:blockinputbus",
-        "modularmachinery:blockmeiteminputbus",
-        "modularmachinery:blockmeitemoutputbus",
-        "modularmachinery:blockenergyinputhatch",
-        "modularmachinery:blockfluidinputhatch",
-        "modularmachinery:blockfluidoutputhatch",
-        "modularmachinery:blockmegasoutputbus",
-        "modularmachinery:blockmefluidinputbus",
-        "modularmachinery:blockmefluidoutputbus",
-        "modularmachinery:blockoutputbus",
-        "modularmachinery:blockenergyoutputhatch"
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockoutputbus",
+                "modularmachinery:blockmeitemoutputbus",
+                "modularmachinery:blockenergyinputhatch",
+                
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockfluidoutputhatch",
+                "modularmachinery:blockmegasoutputbus",
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmefluidoutputbus",
+                "modularmachinery:blockmeitemoutputbus"
             ]
         },
         {
@@ -424,18 +426,19 @@
             "y": -1,
             "z": 4,
             "elements": [
-        "modularmachinery:blockcasing",
-        "modularmachinery:blockinputbus",
-        "modularmachinery:blockmeiteminputbus",
-        "modularmachinery:blockmeitemoutputbus",
-        "modularmachinery:blockenergyinputhatch",
-        "modularmachinery:blockfluidinputhatch",
-        "modularmachinery:blockfluidoutputhatch",
-        "modularmachinery:blockmegasoutputbus",
-        "modularmachinery:blockmefluidinputbus",
-        "modularmachinery:blockmefluidoutputbus",
-        "modularmachinery:blockoutputbus",
-        "modularmachinery:blockenergyoutputhatch"
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockoutputbus",
+                "modularmachinery:blockmeitemoutputbus",
+                "modularmachinery:blockenergyinputhatch",
+                
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockfluidoutputhatch",
+                "modularmachinery:blockmegasoutputbus",
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmefluidoutputbus",
+                "modularmachinery:blockmeitemoutputbus"
             ]
         },
         {
@@ -499,18 +502,19 @@
             "y": -1,
             "z": 7,
             "elements": [
-        "modularmachinery:blockcasing",
-        "modularmachinery:blockinputbus",
-        "modularmachinery:blockmeiteminputbus",
-        "modularmachinery:blockmeitemoutputbus",
-        "modularmachinery:blockenergyinputhatch",
-        "modularmachinery:blockfluidinputhatch",
-        "modularmachinery:blockfluidoutputhatch",
-        "modularmachinery:blockmegasoutputbus",
-        "modularmachinery:blockmefluidinputbus",
-        "modularmachinery:blockmefluidoutputbus",
-        "modularmachinery:blockoutputbus",
-        "modularmachinery:blockenergyoutputhatch"
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockoutputbus",
+                "modularmachinery:blockmeitemoutputbus",
+                "modularmachinery:blockenergyinputhatch",
+                
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockfluidoutputhatch",
+                "modularmachinery:blockmegasoutputbus",
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmefluidoutputbus",
+                "modularmachinery:blockmeitemoutputbus"
             ]
         },
         {
@@ -790,18 +794,19 @@
             "y": -1,
             "z": 3,
             "elements": [
-        "modularmachinery:blockcasing",
-        "modularmachinery:blockinputbus",
-        "modularmachinery:blockmeiteminputbus",
-        "modularmachinery:blockmeitemoutputbus",
-        "modularmachinery:blockenergyinputhatch",
-        "modularmachinery:blockfluidinputhatch",
-        "modularmachinery:blockfluidoutputhatch",
-        "modularmachinery:blockmegasoutputbus",
-        "modularmachinery:blockmefluidinputbus",
-        "modularmachinery:blockmefluidoutputbus",
-        "modularmachinery:blockoutputbus",
-        "modularmachinery:blockenergyoutputhatch"
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockoutputbus",
+                "modularmachinery:blockmeitemoutputbus",
+                "modularmachinery:blockenergyinputhatch",
+                
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockfluidoutputhatch",
+                "modularmachinery:blockmegasoutputbus",
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmefluidoutputbus",
+                "modularmachinery:blockmeitemoutputbus"
             ]
         },
         {
@@ -930,18 +935,19 @@
             "y": -1,
             "z": 6,
             "elements": [
-        "modularmachinery:blockcasing",
-        "modularmachinery:blockinputbus",
-        "modularmachinery:blockmeiteminputbus",
-        "modularmachinery:blockmeitemoutputbus",
-        "modularmachinery:blockenergyinputhatch",
-        "modularmachinery:blockfluidinputhatch",
-        "modularmachinery:blockfluidoutputhatch",
-        "modularmachinery:blockmegasoutputbus",
-        "modularmachinery:blockmefluidinputbus",
-        "modularmachinery:blockmefluidoutputbus",
-        "modularmachinery:blockoutputbus",
-        "modularmachinery:blockenergyoutputhatch"
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockoutputbus",
+                "modularmachinery:blockmeitemoutputbus",
+                "modularmachinery:blockenergyinputhatch",
+                
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockfluidoutputhatch",
+                "modularmachinery:blockmegasoutputbus",
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmefluidoutputbus",
+                "modularmachinery:blockmeitemoutputbus"
             ]
         },
         {
@@ -1093,18 +1099,19 @@
             "y": -1,
             "z": 4,
             "elements": [
-        "modularmachinery:blockcasing",
-        "modularmachinery:blockinputbus",
-        "modularmachinery:blockmeiteminputbus",
-        "modularmachinery:blockmeitemoutputbus",
-        "modularmachinery:blockenergyinputhatch",
-        "modularmachinery:blockfluidinputhatch",
-        "modularmachinery:blockfluidoutputhatch",
-        "modularmachinery:blockmegasoutputbus",
-        "modularmachinery:blockmefluidinputbus",
-        "modularmachinery:blockmefluidoutputbus",
-        "modularmachinery:blockoutputbus",
-        "modularmachinery:blockenergyoutputhatch"
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockoutputbus",
+                "modularmachinery:blockmeitemoutputbus",
+                "modularmachinery:blockenergyinputhatch",
+                
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockfluidoutputhatch",
+                "modularmachinery:blockmegasoutputbus",
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmefluidoutputbus",
+                "modularmachinery:blockmeitemoutputbus"
             ]
         },
         {
@@ -1698,18 +1705,19 @@
             "y": -1,
             "z": 3,
             "elements": [
-        "modularmachinery:blockcasing",
-        "modularmachinery:blockinputbus",
-        "modularmachinery:blockmeiteminputbus",
-        "modularmachinery:blockmeitemoutputbus",
-        "modularmachinery:blockenergyinputhatch",
-        "modularmachinery:blockfluidinputhatch",
-        "modularmachinery:blockfluidoutputhatch",
-        "modularmachinery:blockmegasoutputbus",
-        "modularmachinery:blockmefluidinputbus",
-        "modularmachinery:blockmefluidoutputbus",
-        "modularmachinery:blockoutputbus",
-        "modularmachinery:blockenergyoutputhatch"
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockoutputbus",
+                "modularmachinery:blockmeitemoutputbus",
+                "modularmachinery:blockenergyinputhatch",
+                
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockfluidoutputhatch",
+                "modularmachinery:blockmegasoutputbus",
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmefluidoutputbus",
+                "modularmachinery:blockmeitemoutputbus"
             ]
         },
         {
@@ -1869,18 +1877,19 @@
             "y": -1,
             "z": 7,
             "elements": [
-        "modularmachinery:blockcasing",
-        "modularmachinery:blockinputbus",
-        "modularmachinery:blockmeiteminputbus",
-        "modularmachinery:blockmeitemoutputbus",
-        "modularmachinery:blockenergyinputhatch",
-        "modularmachinery:blockfluidinputhatch",
-        "modularmachinery:blockfluidoutputhatch",
-        "modularmachinery:blockmegasoutputbus",
-        "modularmachinery:blockmefluidinputbus",
-        "modularmachinery:blockmefluidoutputbus",
-        "modularmachinery:blockoutputbus",
-        "modularmachinery:blockenergyoutputhatch"
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockoutputbus",
+                "modularmachinery:blockmeitemoutputbus",
+                "modularmachinery:blockenergyinputhatch",
+                
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockfluidoutputhatch",
+                "modularmachinery:blockmegasoutputbus",
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmefluidoutputbus",
+                "modularmachinery:blockmeitemoutputbus"
             ]
         },
         {
@@ -2784,18 +2793,19 @@
             "y": -1,
             "z": 6,
             "elements": [
-        "modularmachinery:blockcasing",
-        "modularmachinery:blockinputbus",
-        "modularmachinery:blockmeiteminputbus",
-        "modularmachinery:blockmeitemoutputbus",
-        "modularmachinery:blockenergyinputhatch",
-        "modularmachinery:blockfluidinputhatch",
-        "modularmachinery:blockfluidoutputhatch",
-        "modularmachinery:blockmegasoutputbus",
-        "modularmachinery:blockmefluidinputbus",
-        "modularmachinery:blockmefluidoutputbus",
-        "modularmachinery:blockoutputbus",
-        "modularmachinery:blockenergyoutputhatch"
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockoutputbus",
+                "modularmachinery:blockmeitemoutputbus",
+                "modularmachinery:blockenergyinputhatch",
+                
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockfluidoutputhatch",
+                "modularmachinery:blockmegasoutputbus",
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmefluidoutputbus",
+                "modularmachinery:blockmeitemoutputbus"
             ]
         },
         {
@@ -3139,18 +3149,19 @@
             "y": -1,
             "z": 0,
             "elements": [
-        "modularmachinery:blockcasing",
-        "modularmachinery:blockinputbus",
-        "modularmachinery:blockmeiteminputbus",
-        "modularmachinery:blockmeitemoutputbus",
-        "modularmachinery:blockenergyinputhatch",
-        "modularmachinery:blockfluidinputhatch",
-        "modularmachinery:blockfluidoutputhatch",
-        "modularmachinery:blockmegasoutputbus",
-        "modularmachinery:blockmefluidinputbus",
-        "modularmachinery:blockmefluidoutputbus",
-        "modularmachinery:blockoutputbus",
-        "modularmachinery:blockenergyoutputhatch"
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockoutputbus",
+                "modularmachinery:blockmeitemoutputbus",
+                "modularmachinery:blockenergyinputhatch",
+                
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockfluidoutputhatch",
+                "modularmachinery:blockmegasoutputbus",
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmefluidoutputbus",
+                "modularmachinery:blockmeitemoutputbus"
             ]
         },
         {
@@ -3158,18 +3169,18 @@
             "y": -1,
             "z": 0,
             "elements": [
-        "modularmachinery:blockcasing",
-        "modularmachinery:blockinputbus",
-        "modularmachinery:blockmeiteminputbus",
-        "modularmachinery:blockmeitemoutputbus",
-        "modularmachinery:blockenergyinputhatch",
-        "modularmachinery:blockfluidinputhatch",
-        "modularmachinery:blockfluidoutputhatch",
-        "modularmachinery:blockmegasoutputbus",
-        "modularmachinery:blockmefluidinputbus",
-        "modularmachinery:blockmefluidoutputbus",
-        "modularmachinery:blockoutputbus",
-        "modularmachinery:blockenergyoutputhatch"
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockoutputbus",
+                "modularmachinery:blockmeitemoutputbus",
+                "modularmachinery:blockenergyinputhatch",
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockfluidoutputhatch",
+                "modularmachinery:blockmegasoutputbus",
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmefluidoutputbus",
+                "modularmachinery:blockmeitemoutputbus"
             ]
         },
         {

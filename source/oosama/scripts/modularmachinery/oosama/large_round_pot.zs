@@ -104,8 +104,8 @@ RecipeBuilder.newBuilder("yuzhouwurenjimk3", "machine_arm",10)
     .build();
 //星能液产出MK1
 RecipeBuilder.newBuilder("lrt_xnyMKK1", "large_round_pot", 300)
-    .addItemInput(<contenttweaker:programming_circuit_a>*1).setChance(0)
-    .addItemInput(<contenttweaker:space_probe_mk1>).setChance(0).setParallelizeUnaffected(true)
+    .addItemInput(<contenttweaker:programming_circuit_a>*1).setChance(0).setParallelizeUnaffected(true)
+    .addItemInput(<contenttweaker:space_probe_mk1>).setChance(0).setParallelizeUnaffected(false)
     .addOutputs(<liquid:astralsorcery.liquidstarlight> *50)
     .addCatalystInput(<astralsorcery:itemcoloredlens:6>,
         ["注入了星能的彩色透镜拥有将星能汇聚的能力。", "使星能液的产量翻倍。"],
@@ -145,8 +145,8 @@ RecipeBuilder.newBuilder("lrt_xnyMKK1", "large_round_pot", 300)
     .build();
 //星能液产出MK2
 RecipeBuilder.newBuilder("lrt_xnyMK2", "large_round_pot", 300)
-    .addItemInput(<contenttweaker:programming_circuit_a>*1).setChance(0)
-    .addItemInput(<contenttweaker:space_probe_mk2>).setChance(0).setParallelizeUnaffected(true)
+    .addItemInput(<contenttweaker:programming_circuit_a>*1).setChance(0).setParallelizeUnaffected(true)
+    .addItemInput(<contenttweaker:space_probe_mk2>).setChance(0).setParallelizeUnaffected(false)
     .addOutputs(<liquid:astralsorcery.liquidstarlight> *50)
     .addCatalystInput(<astralsorcery:itemcoloredlens:6>,
         ["注入了星能的彩色透镜拥有将星能汇聚的能力。", "使星能液的产量翻倍。"],
@@ -186,8 +186,8 @@ RecipeBuilder.newBuilder("lrt_xnyMK2", "large_round_pot", 300)
     .build();
 //星能液产出MK3
 RecipeBuilder.newBuilder("lrt_xnyMK3", "large_round_pot", 300)
-    .addItemInput(<contenttweaker:programming_circuit_a>*1).setChance(0)
-    .addItemInput(<contenttweaker:space_probe_mk3>).setChance(0).setParallelizeUnaffected(true)
+    .addItemInput(<contenttweaker:programming_circuit_a>*1).setChance(0).setParallelizeUnaffected(true)
+    .addItemInput(<contenttweaker:space_probe_mk3>).setChance(0).setParallelizeUnaffected(false)
     .addOutputs(<liquid:astralsorcery.liquidstarlight> *50)
     .addCatalystInput(<astralsorcery:itemcoloredlens:6>,
         ["注入了星能的彩色透镜拥有将星能汇聚的能力。", "使星能液的产量翻倍。"],
@@ -228,8 +228,8 @@ RecipeBuilder.newBuilder("lrt_xnyMK3", "large_round_pot", 300)
 
 //uu物质MK1
 RecipeBuilder.newBuilder("lrt_uuwzMK1", "large_round_pot", 1000)
-    .addItemInput(<contenttweaker:programming_circuit_b>*1).setChance(0)
-    .addItemInput(<contenttweaker:space_probe_mk1>).setChance(0).setParallelizeUnaffected(true)
+    .addItemInput(<contenttweaker:programming_circuit_b>*1).setChance(0).setParallelizeUnaffected(true)
+    .addItemInput(<contenttweaker:space_probe_mk1>).setChance(0).setParallelizeUnaffected(false)
     .addOutputs(<liquid:ic2uu_matter> * 1000)
     .addCatalystInput(<avaritia:resource:5> * 1,
     ["一即全,全即一。","工作时间 §ax0.2§f, 工作产出 §ax5§f"],
@@ -237,7 +237,12 @@ RecipeBuilder.newBuilder("lrt_uuwzMK1", "large_round_pot", 1000)
             RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build(),
             RecipeModifierBuilder.create("modularmachinery:fluid", "output", 5, 1, false).build()
     ]).setChance(0)
-
+    .addCatalystInput(<contenttweaker:uu_crystal_3> * 1,
+    ["紫色很有韵味。","工作时间 §ax0.8§f, 工作产出 §ax2§f"],
+    [
+            RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.8, 1, false).build(),
+            RecipeModifierBuilder.create("modularmachinery:fluid", "output", 2, 1, false).build()
+    ]).setChance(0)
     .addPreCheckHandler(function(event as RecipeCheckEvent) {
      event.activeRecipe.maxParallelism = 32; //最大并行设置为32
     })
@@ -246,8 +251,8 @@ RecipeBuilder.newBuilder("lrt_uuwzMK1", "large_round_pot", 1000)
     .build();
 //uu物质MK2
 RecipeBuilder.newBuilder("lrt_uuwzMK2", "large_round_pot", 1000)
-    .addItemInput(<contenttweaker:programming_circuit_b>*1).setChance(0)
-    .addItemInput(<contenttweaker:space_probe_mk2>).setChance(0).setParallelizeUnaffected(true)
+    .addItemInput(<contenttweaker:programming_circuit_b>*1).setChance(0).setParallelizeUnaffected(true)
+    .addItemInput(<contenttweaker:space_probe_mk2>).setChance(0).setParallelizeUnaffected(false)
     .addOutputs(<liquid:ic2uu_matter> * 1000)
     .addCatalystInput(<avaritia:resource:5> * 1,
     ["一即全,全即一。","工作时间 §ax0.2§f, 工作产出 §ax5§f"],
@@ -255,7 +260,12 @@ RecipeBuilder.newBuilder("lrt_uuwzMK2", "large_round_pot", 1000)
             RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build(),
             RecipeModifierBuilder.create("modularmachinery:fluid", "output", 5, 1, false).build()
     ]).setChance(0)
-
+    .addCatalystInput(<contenttweaker:uu_crystal_3> * 1,
+    ["紫色很有韵味。","工作时间 §ax0.8§f, 工作产出 §ax2§f"],
+    [
+            RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.8, 1, false).build(),
+            RecipeModifierBuilder.create("modularmachinery:fluid", "output", 2, 1, false).build()
+    ]).setChance(0)
     .addPreCheckHandler(function(event as RecipeCheckEvent) {
      event.activeRecipe.maxParallelism = 64; //最大并行设置为64
     })
@@ -264,8 +274,8 @@ RecipeBuilder.newBuilder("lrt_uuwzMK2", "large_round_pot", 1000)
     .build();
 //uu物质MK3
 RecipeBuilder.newBuilder("lrt_uuwzMK3", "large_round_pot", 1000)
-    .addItemInput(<contenttweaker:programming_circuit_b>*1).setChance(0)
-    .addItemInput(<contenttweaker:space_probe_mk3>).setChance(0).setParallelizeUnaffected(true)
+    .addItemInput(<contenttweaker:programming_circuit_b>*1).setChance(0).setParallelizeUnaffected(true)
+    .addItemInput(<contenttweaker:space_probe_mk3>).setChance(0).setParallelizeUnaffected(false)
     .addOutputs(<liquid:ic2uu_matter> * 1000)
     .addCatalystInput(<avaritia:resource:5> * 1,
     ["一即全,全即一。","工作时间 §ax0.2§f, 工作产出 §ax5§f"],
@@ -273,7 +283,12 @@ RecipeBuilder.newBuilder("lrt_uuwzMK3", "large_round_pot", 1000)
             RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build(),
             RecipeModifierBuilder.create("modularmachinery:fluid", "output", 5, 1, false).build()
     ]).setChance(0)
-
+    .addCatalystInput(<contenttweaker:uu_crystal_3> * 1,
+    ["紫色很有韵味。","工作时间 §ax0.8§f, 工作产出 §ax2§f"],
+    [
+            RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.8, 1, false).build(),
+            RecipeModifierBuilder.create("modularmachinery:fluid", "output", 2, 1, false).build()
+    ]).setChance(0)
     .addPreCheckHandler(function(event as RecipeCheckEvent) {
      event.activeRecipe.maxParallelism = 256; //最大并行设置为256
     })
@@ -284,8 +299,8 @@ RecipeBuilder.newBuilder("lrt_uuwzMK3", "large_round_pot", 1000)
 
 //液态魔力MK1
 RecipeBuilder.newBuilder("lrt_ytmlMK1", "large_round_pot", 1000)
-    .addItemInput(<contenttweaker:programming_circuit_c>*1).setChance(0)
-    .addItemInput(<contenttweaker:space_probe_mk1>).setChance(0).setParallelizeUnaffected(true)
+    .addItemInput(<contenttweaker:programming_circuit_c>*1).setChance(0).setParallelizeUnaffected(true)
+    .addItemInput(<contenttweaker:space_probe_mk1>).setChance(0).setParallelizeUnaffected(false)
     .addOutputs(<liquid:fluidedmana>*1000)
     .addPreCheckHandler(function(event as RecipeCheckEvent) {
      event.activeRecipe.maxParallelism = 32; //最大并行设置为32
@@ -316,8 +331,8 @@ RecipeBuilder.newBuilder("lrt_ytmlMK1", "large_round_pot", 1000)
     
 //液态魔力MK2
 RecipeBuilder.newBuilder("lrt_ytmlMK2", "large_round_pot", 1000)
-    .addItemInput(<contenttweaker:programming_circuit_c>*1).setChance(0)
-    .addItemInput(<contenttweaker:space_probe_mk2>).setChance(0).setParallelizeUnaffected(true)
+    .addItemInput(<contenttweaker:programming_circuit_c>*1).setChance(0).setParallelizeUnaffected(true)
+    .addItemInput(<contenttweaker:space_probe_mk2>).setChance(0).setParallelizeUnaffected(false)
     .addOutputs(<liquid:fluidedmana>*1000)
     .addPreCheckHandler(function(event as RecipeCheckEvent) {
      event.activeRecipe.maxParallelism = 64; //最大并行设置为64
@@ -348,8 +363,8 @@ RecipeBuilder.newBuilder("lrt_ytmlMK2", "large_round_pot", 1000)
     
 //液态魔力MK3
 RecipeBuilder.newBuilder("lrt_ytmlMK3", "large_round_pot", 1000)
-    .addItemInput(<contenttweaker:programming_circuit_c>*1).setChance(0)
-    .addItemInput(<contenttweaker:space_probe_mk3>).setChance(0).setParallelizeUnaffected(true)
+    .addItemInput(<contenttweaker:programming_circuit_c>*1).setChance(0).setParallelizeUnaffected(true)
+    .addItemInput(<contenttweaker:space_probe_mk3>).setChance(0).setParallelizeUnaffected(false)
     .addOutputs(<liquid:fluidedmana>*1000)
     .addPreCheckHandler(function(event as RecipeCheckEvent) {
      event.activeRecipe.maxParallelism = 256; //最大并行设置为256
@@ -380,8 +395,8 @@ RecipeBuilder.newBuilder("lrt_ytmlMK3", "large_round_pot", 1000)
 
 //紫晶素MK1
 RecipeBuilder.newBuilder("xlrt_zjsMK1", "large_round_pot", 1)
-    .addItemInput(<contenttweaker:programming_circuit_d>*1).setChance(0)
-    .addInput(<contenttweaker:life_regeneration_core>).setChance(0).setParallelizeUnaffected(true)
+    .addItemInput(<contenttweaker:programming_circuit_d>*1).setChance(0).setParallelizeUnaffected(true)
+    .addInput(<contenttweaker:life_regeneration_core>).setChance(0).setParallelizeUnaffected(false)
     .addItemInput(<contenttweaker:space_probe_mk3>).setChance(0)
     .addOutputs(<liquid:crystalloid> * 10)
     .addPreCheckHandler(function(event as RecipeCheckEvent) {
@@ -395,8 +410,8 @@ RecipeBuilder.newBuilder("xlrt_zjsMK1", "large_round_pot", 1)
 //氦三mk1
 RecipeBuilder.newBuilder("xlrt_haisanmk1", "large_round_pot", 1200)
     .setDimension([-2])
-    .addItemInput(<contenttweaker:programming_circuit_0>*1).setChance(0)
-    .addItemInput(<contenttweaker:space_probe_mk1>).setChance(0).setParallelizeUnaffected(true)
+    .addItemInput(<contenttweaker:programming_circuit_0>*1).setChance(0).setParallelizeUnaffected(true)
+    .addItemInput(<contenttweaker:space_probe_mk1>).setChance(0).setParallelizeUnaffected(false)
     .addOutputs(<liquid:helium_3> * 1000)
     .addCatalystInput(<avaritia:resource:5> * 1,
         ["一即全,全即一。","工作时间 §ax0.2§f, 工作产出 §ax10§f"],
@@ -424,8 +439,8 @@ RecipeBuilder.newBuilder("xlrt_haisanmk1", "large_round_pot", 1200)
 //氦三mk2
 RecipeBuilder.newBuilder("xlrt_haisanmk2", "large_round_pot", 1200)
     .setDimension([-2])
-    .addItemInput(<contenttweaker:programming_circuit_e>*1).setChance(0)
-    .addItemInput(<contenttweaker:space_probe_mk2>).setChance(0).setParallelizeUnaffected(true)
+    .addItemInput(<contenttweaker:programming_circuit_e>*1).setChance(0).setParallelizeUnaffected(true)
+    .addItemInput(<contenttweaker:space_probe_mk2>).setChance(0).setParallelizeUnaffected(false)
     .addOutputs(<liquid:helium_3> * 1000)
     .addCatalystInput(<avaritia:resource:5> * 1,
         ["一即全,全即一。","工作时间 §ax0.2§f, 工作产出 §ax10§f"],
@@ -453,8 +468,8 @@ RecipeBuilder.newBuilder("xlrt_haisanmk2", "large_round_pot", 1200)
 //氦三mk3
 RecipeBuilder.newBuilder("xlrt_haisanmk3", "large_round_pot", 1200)
     .setDimension([-2])
-    .addItemInput(<contenttweaker:programming_circuit_e>*1).setChance(0)
-    .addItemInput(<contenttweaker:space_probe_mk3>).setChance(0).setParallelizeUnaffected(true)
+    .addItemInput(<contenttweaker:programming_circuit_e>*1).setChance(0).setParallelizeUnaffected(true)
+    .addItemInput(<contenttweaker:space_probe_mk3>).setChance(0).setParallelizeUnaffected(false)
     .addOutputs(<liquid:helium_3> * 1000)
     .addCatalystInput(<avaritia:resource:5> * 1,
         ["一即全,全即一。","工作时间 §ax0.2§f, 工作产出 §ax10§f"],
