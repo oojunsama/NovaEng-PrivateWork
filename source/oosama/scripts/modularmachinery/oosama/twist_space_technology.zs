@@ -52,13 +52,13 @@ RecipeBuilder.newBuilder("twist_space_technology_controller", "machine_arm", 180
         <modularmachinery:blockcasing:4>,
     ])
     .addOutput(<modularmachinery:twist_space_technology_factory_controller>)
-    .build();
+.build();
 
 //扭配方继承虽然来说似乎都没有用的
 RecipeAdapterBuilder.create("twist_space_technology", "nuclearcraft:chemical_reactor")
     .addModifier(RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.025, 1, false).build())
     .addModifier(RecipeModifierBuilder.create("modularmachinery:energy",   "input", 4000, 1, false).build())
-    .build();
+.build();
 
 
 //硫酸3.0
@@ -73,7 +73,8 @@ RecipeAdapterBuilder.create("twist_space_technology", "nuclearcraft:chemical_rea
             <liquid:oxygen> * 48000,
             <liquid:water> * 32000,])
         .addOutput(<liquid:sulfuric_acid> * 32000)
-    .build();
+    .setMaxThreads(1)
+.build();
 
 //碳纳米管 集成 替代 上位
 RecipeBuilder.newBuilder("carbon_nanotube", "twist_space_technology", 80)
@@ -81,7 +82,8 @@ RecipeBuilder.newBuilder("carbon_nanotube", "twist_space_technology", 80)
     .addInputs(<contenttweaker:graphene> * 2)
     .addInput(<mets:niobium_titanium_plate> * 1).setChance(0)
     .addOutputs(<contenttweaker:carbon_nanotube> * 1)
-    .build();
+    .setMaxThreads(1)
+.build();
 
 //生产营养精华液-普通配方
 RecipeBuilder.newBuilder("nutrient_distillation_0", "twist_space_technology", 200)
@@ -108,7 +110,8 @@ RecipeBuilder.newBuilder("nutrient_distillation_0", "twist_space_technology", 20
     .build()
 )
     .addFluidOutput(<liquid:nutrient_distillation>* 1000)
-    .build();
+    .setMaxThreads(1)
+.build();
 
 //生产营养精华液-低级配方
 RecipeBuilder.newBuilder("nutrient_distillation_1", "twist_space_technology", 200)
@@ -127,7 +130,8 @@ RecipeBuilder.newBuilder("nutrient_distillation_1", "twist_space_technology", 20
 )
    .addInputs( <minecraft:sugar>)
     .addFluidOutput(<liquid:nutrient_distillation> * 500)
-    .build();
+    .setMaxThreads(1)
+.build();
 
 //生产营养精华液-高级配方
 RecipeBuilder.newBuilder("nutrient_distillation_2", "twist_space_technology", 200)
@@ -146,7 +150,8 @@ RecipeBuilder.newBuilder("nutrient_distillation_2", "twist_space_technology", 20
 )
     .addInputs([<minecraft:fermented_spider_eye>])
     .addFluidOutput(<liquid:nutrient_distillation> * 1500)
-    .build();
+    .setMaxThreads(1)
+.build();
     
 //营养糊剂生产营养精华液-顶级配方
 RecipeBuilder.newBuilder("nutrient_distillation_3","twist_space_technology", 200)
@@ -155,7 +160,8 @@ RecipeBuilder.newBuilder("nutrient_distillation_3","twist_space_technology", 200
     .addInputs(<minecraft:skull:5>)
     .addInputs(<minecraft:fermented_spider_eye>)
     .addFluidOutput(<liquid:nutrient_distillation> * 2000) 
-    .build();
+    .setMaxThreads(1)
+.build();
 
 //扭冷却液
 RecipeBuilder.newBuilder("lengqueyan_niu","twist_space_technology",10)
@@ -163,21 +169,24 @@ RecipeBuilder.newBuilder("lengqueyan_niu","twist_space_technology",10)
    .addInputs(<ic2:dust:9>*9)
    .addFluidInputs(<liquid:water>* 1000) 
    .addFluidOutput(<liquid:ic2coolant> * 1000)
-    .build();
+    .setMaxThreads(1)
+.build();
 
     //扭DT燃料的D
 RecipeBuilder.newBuilder("mekdtranliaoded_niu", "twist_space_technology", 10)
     .addEnergyPerTickInput(1024000)
     .addFluidInputs(<liquid:heavywater>* 1000) 
     .addFluidOutput(<liquid:deuterium>* 1000)
-    .build();
+    .setMaxThreads(1)
+.build();
 
     //扭DT燃料的T
 RecipeBuilder.newBuilder("mekdtranliaodet_niu", "twist_space_technology", 10)
     .addEnergyPerTickInput(1024000)
     .addFluidInputs(<liquid:liquidlithium>* 1000) 
     .addFluidOutput(<liquid:tritium>* 1000)
-    .build();
+    .setMaxThreads(1)
+.build();
 
     //扭红石水晶
 RecipeBuilder.newBuilder("hongshishuijing_niu", "twist_space_technology", 10)
@@ -185,7 +194,8 @@ RecipeBuilder.newBuilder("hongshishuijing_niu", "twist_space_technology", 10)
     .addInputs(<minecraft:diamond>) 
     .addFluidInputs(<liquid:redstone>* 500) 
     .addOutputs(<redstonearsenal:material:160>)
-    .build();
+    .setMaxThreads(1)
+.build();
 
     //扭极寒水晶
 RecipeBuilder.newBuilder("jihanshuijing_niu", "twist_space_technology", 10)
@@ -193,7 +203,8 @@ RecipeBuilder.newBuilder("jihanshuijing_niu", "twist_space_technology", 10)
     .addInputs(<minecraft:emerald>) 
     .addFluidInputs(<liquid:cryotheum>* 1000) 
     .addOutputs(<redstonerepository:material:5>)
-    .build();
+    .setMaxThreads(1)
+.build();
 
     //扭极寒末影锭
 RecipeBuilder.newBuilder("jihanmoyinding_niu", "twist_space_technology", 10)
@@ -201,7 +212,8 @@ RecipeBuilder.newBuilder("jihanmoyinding_niu", "twist_space_technology", 10)
     .addInputs(<thermalfoundation:material:167>) 
     .addFluidInputs(<liquid:cryotheum>* 1000) 
     .addOutputs(<redstonerepository:material:1>)
-    .build();
+    .setMaxThreads(1)
+.build();
 
   
   

@@ -202,19 +202,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockinputbus",
-                "modularmachinery:blockmeiteminputbus",
-                "modularmachinery:blockmepatternprovider",
-                "modularmachinery:blockoutputbus",
-                "modularmachinery:blockmeitemoutputbus",
-                "modularmachinery:blockenergyinputhatch",
-                
-                "modularmachinery:blockfluidinputhatch",
-                "modularmachinery:blockfluidoutputhatch",
-                "modularmachinery:blockmegasoutputbus",
-                "modularmachinery:blockmeiteminputbus",
-                "modularmachinery:blockmefluidoutputbus",
-                "modularmachinery:blockmeitemoutputbus"
+"miniature_cosmic_resource_collector_io"
             ]
         },
         {
@@ -318,19 +306,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockinputbus",
-                "modularmachinery:blockmeiteminputbus",
-                "modularmachinery:blockmepatternprovider",
-                "modularmachinery:blockoutputbus",
-                "modularmachinery:blockmeitemoutputbus",
-                "modularmachinery:blockenergyinputhatch",
-                
-                "modularmachinery:blockfluidinputhatch",
-                "modularmachinery:blockfluidoutputhatch",
-                "modularmachinery:blockmegasoutputbus",
-                "modularmachinery:blockmeiteminputbus",
-                "modularmachinery:blockmefluidoutputbus",
-                "modularmachinery:blockmeitemoutputbus"
+"miniature_cosmic_resource_collector_io"
             ]
         },
         {
@@ -426,19 +402,7 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "modularmachinery:blockinputbus",
-                "modularmachinery:blockmeiteminputbus",
-                "modularmachinery:blockmepatternprovider",
-                "modularmachinery:blockoutputbus",
-                "modularmachinery:blockmeitemoutputbus",
-                "modularmachinery:blockenergyinputhatch",
-                
-                "modularmachinery:blockfluidinputhatch",
-                "modularmachinery:blockfluidoutputhatch",
-                "modularmachinery:blockmegasoutputbus",
-                "modularmachinery:blockmeiteminputbus",
-                "modularmachinery:blockmefluidoutputbus",
-                "modularmachinery:blockmeitemoutputbus"
+"miniature_cosmic_resource_collector_io"
             ]
         },
         {
@@ -502,19 +466,7 @@
             "y": -1,
             "z": 7,
             "elements": [
-                "modularmachinery:blockinputbus",
-                "modularmachinery:blockmeiteminputbus",
-                "modularmachinery:blockmepatternprovider",
-                "modularmachinery:blockoutputbus",
-                "modularmachinery:blockmeitemoutputbus",
-                "modularmachinery:blockenergyinputhatch",
-                
-                "modularmachinery:blockfluidinputhatch",
-                "modularmachinery:blockfluidoutputhatch",
-                "modularmachinery:blockmegasoutputbus",
-                "modularmachinery:blockmeiteminputbus",
-                "modularmachinery:blockmefluidoutputbus",
-                "modularmachinery:blockmeitemoutputbus"
+"miniature_cosmic_resource_collector_io"
             ]
         },
         {
@@ -794,19 +746,7 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "modularmachinery:blockinputbus",
-                "modularmachinery:blockmeiteminputbus",
-                "modularmachinery:blockmepatternprovider",
-                "modularmachinery:blockoutputbus",
-                "modularmachinery:blockmeitemoutputbus",
-                "modularmachinery:blockenergyinputhatch",
-                
-                "modularmachinery:blockfluidinputhatch",
-                "modularmachinery:blockfluidoutputhatch",
-                "modularmachinery:blockmegasoutputbus",
-                "modularmachinery:blockmeiteminputbus",
-                "modularmachinery:blockmefluidoutputbus",
-                "modularmachinery:blockmeitemoutputbus"
+"miniature_cosmic_resource_collector_io"
             ]
         },
         {
@@ -935,19 +875,7 @@
             "y": -1,
             "z": 6,
             "elements": [
-                "modularmachinery:blockinputbus",
-                "modularmachinery:blockmeiteminputbus",
-                "modularmachinery:blockmepatternprovider",
-                "modularmachinery:blockoutputbus",
-                "modularmachinery:blockmeitemoutputbus",
-                "modularmachinery:blockenergyinputhatch",
-                
-                "modularmachinery:blockfluidinputhatch",
-                "modularmachinery:blockfluidoutputhatch",
-                "modularmachinery:blockmegasoutputbus",
-                "modularmachinery:blockmeiteminputbus",
-                "modularmachinery:blockmefluidoutputbus",
-                "modularmachinery:blockmeitemoutputbus"
+"miniature_cosmic_resource_collector_io"
             ]
         },
         {
@@ -1099,19 +1027,7 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "modularmachinery:blockinputbus",
-                "modularmachinery:blockmeiteminputbus",
-                "modularmachinery:blockmepatternprovider",
-                "modularmachinery:blockoutputbus",
-                "modularmachinery:blockmeitemoutputbus",
-                "modularmachinery:blockenergyinputhatch",
-                
-                "modularmachinery:blockfluidinputhatch",
-                "modularmachinery:blockfluidoutputhatch",
-                "modularmachinery:blockmegasoutputbus",
-                "modularmachinery:blockmeiteminputbus",
-                "modularmachinery:blockmefluidoutputbus",
-                "modularmachinery:blockmeitemoutputbus"
+"miniature_cosmic_resource_collector_io"
             ]
         },
         {
@@ -1705,19 +1621,7 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "modularmachinery:blockinputbus",
-                "modularmachinery:blockmeiteminputbus",
-                "modularmachinery:blockmepatternprovider",
-                "modularmachinery:blockoutputbus",
-                "modularmachinery:blockmeitemoutputbus",
-                "modularmachinery:blockenergyinputhatch",
-                
-                "modularmachinery:blockfluidinputhatch",
-                "modularmachinery:blockfluidoutputhatch",
-                "modularmachinery:blockmegasoutputbus",
-                "modularmachinery:blockmeiteminputbus",
-                "modularmachinery:blockmefluidoutputbus",
-                "modularmachinery:blockmeitemoutputbus"
+"miniature_cosmic_resource_collector_io"
             ]
         },
         {
@@ -1877,19 +1781,7 @@
             "y": -1,
             "z": 7,
             "elements": [
-                "modularmachinery:blockinputbus",
-                "modularmachinery:blockmeiteminputbus",
-                "modularmachinery:blockmepatternprovider",
-                "modularmachinery:blockoutputbus",
-                "modularmachinery:blockmeitemoutputbus",
-                "modularmachinery:blockenergyinputhatch",
-                
-                "modularmachinery:blockfluidinputhatch",
-                "modularmachinery:blockfluidoutputhatch",
-                "modularmachinery:blockmegasoutputbus",
-                "modularmachinery:blockmeiteminputbus",
-                "modularmachinery:blockmefluidoutputbus",
-                "modularmachinery:blockmeitemoutputbus"
+"miniature_cosmic_resource_collector_io"
             ]
         },
         {
@@ -2793,19 +2685,7 @@
             "y": -1,
             "z": 6,
             "elements": [
-                "modularmachinery:blockinputbus",
-                "modularmachinery:blockmeiteminputbus",
-                "modularmachinery:blockmepatternprovider",
-                "modularmachinery:blockoutputbus",
-                "modularmachinery:blockmeitemoutputbus",
-                "modularmachinery:blockenergyinputhatch",
-                
-                "modularmachinery:blockfluidinputhatch",
-                "modularmachinery:blockfluidoutputhatch",
-                "modularmachinery:blockmegasoutputbus",
-                "modularmachinery:blockmeiteminputbus",
-                "modularmachinery:blockmefluidoutputbus",
-                "modularmachinery:blockmeitemoutputbus"
+"miniature_cosmic_resource_collector_io"
             ]
         },
         {
@@ -3149,19 +3029,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockinputbus",
-                "modularmachinery:blockmeiteminputbus",
-                "modularmachinery:blockmepatternprovider",
-                "modularmachinery:blockoutputbus",
-                "modularmachinery:blockmeitemoutputbus",
-                "modularmachinery:blockenergyinputhatch",
-                
-                "modularmachinery:blockfluidinputhatch",
-                "modularmachinery:blockfluidoutputhatch",
-                "modularmachinery:blockmegasoutputbus",
-                "modularmachinery:blockmeiteminputbus",
-                "modularmachinery:blockmefluidoutputbus",
-                "modularmachinery:blockmeitemoutputbus"
+"miniature_cosmic_resource_collector_io"
             ]
         },
         {
@@ -3169,18 +3037,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockinputbus",
-                "modularmachinery:blockmeiteminputbus",
-                "modularmachinery:blockmepatternprovider",
-                "modularmachinery:blockoutputbus",
-                "modularmachinery:blockmeitemoutputbus",
-                "modularmachinery:blockenergyinputhatch",
-                "modularmachinery:blockfluidinputhatch",
-                "modularmachinery:blockfluidoutputhatch",
-                "modularmachinery:blockmegasoutputbus",
-                "modularmachinery:blockmeiteminputbus",
-                "modularmachinery:blockmefluidoutputbus",
-                "modularmachinery:blockmeitemoutputbus"
+"miniature_cosmic_resource_collector_io"
             ]
         },
         {
